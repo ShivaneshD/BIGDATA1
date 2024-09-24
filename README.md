@@ -52,7 +52,7 @@ Clone the Repository: First, clone the project repository to your local machine:
 
 git clone <https://github.com/ShivaneshD/BIGDATA1.git>
 
-cd <BIGDATA1>
+cd BIGDATA1
 
 Install Dependencies: Ensure all required Python libraries are installed using:
 
