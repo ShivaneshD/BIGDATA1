@@ -67,9 +67,13 @@ python customer_segmentation_som.py
 View Outputs: After running the script, the following outputs will be generated in the project directory:
 
 som_umatrix.png: U-Matrix visualization.
+
 som_hitmap.png: Hit map of customer density.
+
 som_customer_segmentation.png: SOM plot with customer markers.
+
 customer_segmentation_som.xlsx: Excel file containing cluster assignments for each customer.
+
 
 Results and Insights
 The Self-Organizing Map successfully clusters customers into different segments based on their purchasing behavior. This clustering can be used to tailor marketing strategies or identify potential high-value customers.
@@ -77,9 +81,12 @@ The Self-Organizing Map successfully clusters customers into different segments 
 The following visualizations provide insights:
 
 U-Matrix: Helps to visually identify distinct customer clusters.
+
 Hit Map: Illustrates how densely customers are distributed across the SOM grid.
+
 Customer Segmentation Map: Provides a clear view of customer clusters with markers for each customer.
 Future Improvements
+
 Additional features such as recency of purchase (RFM analysis) can further improve segmentation.
 The SOM grid can be fine-tuned to achieve better clustering by adjusting parameters like sigma and learning_rate
 
