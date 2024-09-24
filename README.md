@@ -82,3 +82,5 @@ Customer Segmentation Map: Provides a clear view of customer clusters with marke
 Future Improvements
 Additional features such as recency of purchase (RFM analysis) can further improve segmentation.
 The SOM grid can be fine-tuned to achieve better clustering by adjusting parameters like sigma and learning_rate
+
+
