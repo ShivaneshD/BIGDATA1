@@ -50,8 +50,8 @@ Step-by-Step Execution:
 Clone the Repository: First, clone the project repository to your local machine:
 
 
-git clone <repository-link>
-cd <project-directory>
+git clone <https://github.com/ShivaneshD/BIGDATA1.git)>
+cd <BIGDATA1>
 Install Dependencies: Ensure all required Python libraries are installed using:
 
 pip install -r requirements.txt
