@@ -84,8 +84,12 @@ Additional features such as recency of purchase (RFM analysis) can further impro
 The SOM grid can be fine-tuned to achieve better clustering by adjusting parameters like sigma and learning_rate
 
 HOW TO RUN THIS PROGRAM
+
 step 1: Take the dataset Online Retail.xlsx
+
 step 2: Run the app.py python file
+
 step 3: you can see the Customer segmentation SOM excel file separately in same directory
+
 step 4: you will get the output Graphs (3)
 
