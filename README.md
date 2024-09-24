@@ -20,7 +20,7 @@ PurchaseFrequency: The number of purchases made by each customer.
 MonetaryValue: The total money spent by each customer, calculated as Quantity * UnitPrice.
 
 Project Files
-1. customer_segmentation_som.py
+1. app.py
 This is the main execution script for the project. It performs the following tasks:
 
 Data Preprocessing:
