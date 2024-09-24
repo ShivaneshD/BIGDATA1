@@ -50,17 +50,19 @@ Step-by-Step Execution:
 Clone the Repository: First, clone the project repository to your local machine:
 
 
-git clone <https://github.com/ShivaneshD/BIGDATA1.git)>
+git clone <https://github.com/ShivaneshD/BIGDATA1.git>
+
 cd <BIGDATA1>
+
 Install Dependencies: Ensure all required Python libraries are installed using:
 
 pip install -r requirements.txt
-Place Dataset: Ensure the OnlineRetail.xlsx dataset is placed in the project directory. Alternatively, you can modify the path in the script to the location of your dataset file.
+
+Place Dataset: Ensure the OnlineRetail.xlsx dataset is placed in the project directory. 
+Alternatively, you can modify the path in the script to the location of your dataset file.
 
 Run the Script: Execute the customer_segmentation_som.py script to generate the customer segmentation visualizations and clusters:
 
-bash
-Copy code
 python customer_segmentation_som.py
 View Outputs: After running the script, the following outputs will be generated in the project directory:
 
