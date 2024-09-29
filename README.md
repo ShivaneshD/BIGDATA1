@@ -1,3 +1,4 @@
+
 # BIGDATA1
 Customer Segmentation using Self-Organizing Maps (SOM)
 
@@ -99,4 +100,19 @@ step 2: Run the app.py python file
 step 3: you can see the Customer segmentation SOM excel file separately in same directory
 
 step 4: you will get the output Graphs (3)
+
+
+
+THE FILES
+
+DATASET === Online Retail.xlsx
+
+CODING ==== app.py
+
+OUTPUTS === som_hitmap.png
+
+            som_umatrix.png
+
+            Customer Segmentation Using SOM.png
+            
 
