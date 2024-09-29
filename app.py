@@ -64,27 +64,33 @@ plt.tight_layout()
 plt.savefig('som_hitmap.png', dpi=300)  # Save the hit map as a PNG file
 plt.show()
 
-# Step 6: Visualize SOM with Markers on a White Background
+# Step 6: Visualize SOM with Markers using different symbols
 plt.figure(figsize=(12, 10))
 plt.pcolor(som.distance_map().T, cmap='coolwarm')  # Distance map as background (colorful grid)
 colorbar()  # Show color legend
 
-# Adding markers (Red circles to represent customers)
+# Define markers and colors for the visualization
+markers = ['^', 'o', 'D']  # Triangle, Circle, Diamond
+colors = ['g', 'y', 'w']  # Green, Yellow, White
+
+# Assign markers and colors based on some criteria (e.g., cluster position or random assignment)
 for i, x in enumerate(customer_data_scaled):
     win_position = som.winner(x)  # Get winning node for each customer
-    plt.plot(win_position[0] + 0.5, win_position[1] + 0.5, 'o', 
-             markerfacecolor='None', markeredgecolor='r', markeredgewidth=2, markersize=12)
+    marker_index = i % 3  # Cycle through the markers
+    plt.plot(win_position[0] + 0.5, win_position[1] + 0.5, markers[marker_index], 
+             markerfacecolor=colors[marker_index], markeredgecolor='k', 
+             markeredgewidth=2, markersize=12)
 
 # Set white background for the plot
 plt.gca().set_facecolor('white')  # Ensure the background is white
-plt.title('Customer Segmentation using SOM', fontsize=16)
+plt.title('Customer Segmentation using SOM with Different Symbols', fontsize=16)
 plt.xlabel('SOM X-axis', fontsize=14)
 plt.ylabel('SOM Y-axis', fontsize=14)
 plt.xticks(fontsize=12)
 plt.yticks(fontsize=12)
 plt.grid(False)
 plt.tight_layout()
-plt.savefig('som_customer_segmentation.png', dpi=300)  # Save the final plot as a PNG file
+plt.savefig('som_customer_segmentation_symbols.png', dpi=300)  # Save the final plot as a PNG file
 plt.show()
 
 # Step 7: Cluster Assignment
