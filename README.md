@@ -105,14 +105,18 @@ step 4: you will get the output Graphs (3)
 
 THE FILES
 
-DATASET === Online Retail.xlsx
+DATASET === 
+            
+            Online Retail.xlsx
 
-CODING ==== app.py
+CODING ==== 
 
-OUTPUTS === som_hitmap.png
+            app.py
+
+OUTPUTS === 
 
             som_umatrix.png
-
+            som_hitmap.png
             Customer Segmentation Using SOM.png
             
 
