@@ -70,7 +70,7 @@ som_umatrix.png: U-Matrix visualization.
 
 som_hitmap.png: Hit map of customer density.
 
-som_customer_segmentation.png: SOM plot with customer markers.
+Customer Segmentation Using SOM.png: SOM plot with customer markers.
 
 customer_segmentation_som.xlsx: Excel file containing cluster assignments for each customer.
 
